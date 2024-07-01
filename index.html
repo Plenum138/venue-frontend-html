@@ -60,22 +60,29 @@
                                             5K+
                                         </span>
                                         <div>
-                                            <p class="signup_page_section--content--box--title">
+                                            <p
+                                                class="signup_page_section--content--box--title">
                                                 Venues
                                                 <br>
                                                 Available
                                             </p>
                                         </div>
                                     </h1>
+                                    <img src="assets/img/star-review.png"
+                                        alt="star-image" class="img-fluid">
                                     <p class="text-light">VENUES . EVENTS .
                                         SERVICES</p>
                                     <div class="social-icons">
-                                        <a href="#"><i
-                                                class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i
-                                                class="fab fa-instagram"></i></a>
-                                        <a href="#"><i
-                                                class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="bg-secondary">
+                                            <i
+                                                class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -86,50 +93,90 @@
                             <h2>Amplify Venue Reach & Find the most suitable
                                 Location</h2>
                             <p>Let's begin! Create Your Account</p>
-                            <form>
+                            <form class="signup_form">
                                 <div class="form-group">
-                                    <input type="text" class="form-control"
+                                    <label class="signup_form--label"> Name
+                                    </label>
+                                    <input type="text"
+                                        class="form-control form_control"
                                         placeholder="Enter Name">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control"
+                                    <label class="signup_form--label"> Email
+                                        Address </label>
+                                    <input type="email"
+                                        class="form-control form_control"
                                         placeholder="Enter Email Address">
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control"
+                                    <label class="signup_form--label"> Phone
+                                        Number </label>
+                                    <div class="phone_number_inputbox--main">
+                                        <div class="phone_number_inputbox">
+                                            <img src="assets/img/flag.png"
+                                                alt="flag" class="img-fluid">
+                                            <select id="inputState"
+                                                class="form-select form_select">
+                                                <option selected>+44</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="tel"
+                                        class="form-control form_control"
                                         placeholder="Enter Phone Number">
+
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control"
+                                    <label class="signup_form--label"> Password
+                                    </label>
+                                    <input type="password"
+                                        class="form-control form_control"
                                         placeholder="Password">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control"
+                                    <label class="signup_form--label"> Confirm
+                                        Password </label>
+                                    <input type="password"
+                                        class="form-control form_control"
                                         placeholder="Confirm Password">
                                 </div>
                                 <div class="form-group form-check">
                                     <input type="checkbox"
                                         class="form-check-input"
                                         id="createVenue">
-                                    <label class="form-check-label"
+                                    <label class="form-check-label text-dark"
                                         for="createVenue">I will create my venue
                                         in
                                         future</label>
                                 </div>
                                 <div class="form-group form-check">
                                     <input type="checkbox"
-                                        class="form-check-input"
+                                        class="form-check-input text-dark"
                                         id="termsConditions">
-                                    <label class="form-check-label"
+                                    <label class="form-check-label text-dark"
                                         for="termsConditions">Agree <a
                                             href="#">Terms &
                                             Conditions</a></label>
                                 </div>
-                                <button type="submit"
-                                    class="btn btn-primary btn-block">Sign
-                                    Up</button>
-                                <div class="text-center mt-3">
+                                <a href="#"
+                                    class="signup_btn d-flex justify-content-center align-content-center py-3">Sign
+                                    Up</a>
+                                <div class="text-center text-dark fw-bold mt-3">
                                     <span>Or</span>
+                                </div>
+                                <div class="container d-flex flex-column align-items-center justify-content-center mt-2">
+                                    <button class="btn btn-google">
+                                        <img src="assets/img/google.svg" alt="Google logo" class="btn-logo">
+                                        Sign Up with Google
+                                    </button>
+                                    <button class="btn btn-facebook">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook logo" class="btn-logo">
+                                        Sign Up with Facebook
+                                    </button>
+                                    <p class="mt-4">
+                                        Already have an account? <a href="#" class="sign-in-link">Sign In</a>
+                                    </p>
                                 </div>
                             </form>
                         </div>
