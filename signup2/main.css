@@ -16,7 +16,6 @@ body {
   padding: 16px;
 }
 
-/***** Signup Page Section Start *****/
 .container-fluid {
   height: 100%;
   height: 100%;
@@ -25,7 +24,7 @@ body {
 .signup_page_section {
   width: 100%;
   height: 100%;
-  background: url("../img/bg-img.jpg") no-repeat center center;
+  background: url("../assets/img/Signup2-bg-img.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
 }
@@ -36,19 +35,8 @@ body {
 
 .signup_page_section--content--box {
   position: absolute;
-  top: 21%;
-  left: 31%;
-}
-
-.signup_page_section--content--box--heading {
-  font-size: 5rem;
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
-}
-
-.signup_page_section--content--box--title {
-  font-size: 2rem;
-  font-weight: bold;
+  top: 20%;
+  left: 17%;
 }
 
 .overlay {
@@ -66,24 +54,43 @@ body {
 }
 
 /* .left-side h1 {
-  font-size: 3rem;
-  font-weight: bold;
-} */
+    font-size: 3rem;
+    font-weight: bold;
+  } */
 .left-side p {
-  margin-top: 1rem;
+  margin: 0 7px 0px 0px;
+}
+
+.social-icons--box {
+  margin-top: 9rem;
+}
+
+.social-icons--itemsbox {
+  margin-top: 10px;
 }
 
 .social-icons {
-  margin-top: 2rem;
+  display: flex;
+  gap: 20px;
 }
 
-.social-icons a {
+.social-icon {
+  background-color: #ff6600;
   color: white;
-  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+  margin: 0 -10px 0 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.5rem;
   text-decoration: none;
-  background-color: #ff6600;
-  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #e65500;
 }
 
 .right-side {
@@ -115,15 +122,21 @@ body {
 }
 
 input::-moz-placeholder {
-  color: #888; /* Change the color of the placeholder text */
-  font-size: 1rem; /* Change the font size of the placeholder text */
-  opacity: 1; /* Ensures the opacity is set to 1 for better compatibility */
+  color: #888;
+  /* Change the color of the placeholder text */
+  font-size: 1rem;
+  /* Change the font size of the placeholder text */
+  opacity: 1;
+  /* Ensures the opacity is set to 1 for better compatibility */
 }
 
 input::placeholder {
-  color: #888; /* Change the color of the placeholder text */
-  font-size: 1rem; /* Change the font size of the placeholder text */
-  opacity: 1; /* Ensures the opacity is set to 1 for better compatibility */
+  color: #888;
+  /* Change the color of the placeholder text */
+  font-size: 1rem;
+  /* Change the font size of the placeholder text */
+  opacity: 1;
+  /* Ensures the opacity is set to 1 for better compatibility */
 }
 
 .form_select {
@@ -166,7 +179,8 @@ input::placeholder {
   text-decoration: underline;
 }
 
-/***** Signup Page Section Ends *****/ 
+/***** Signup Page Section Ends *****/
+
 .signup_btn {
   color: #fff;
   border: none;
