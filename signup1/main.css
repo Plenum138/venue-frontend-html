@@ -97,8 +97,8 @@ input::placeholder {
 
 .signin_page_section--content--box {
   position: absolute;
-  top: 72px;
-  left: -127px;
+  top: 0;
+  left: 35px;
 }
 
 .signin_page_section--content--box--heading {
@@ -107,6 +107,11 @@ input::placeholder {
 
 .signin_page_section--content--box--title {
   font-size: 2rem;
+}
+
+.logo_img {
+  width: 100px;
+  height: 150px;
 }
 
 .overlay {

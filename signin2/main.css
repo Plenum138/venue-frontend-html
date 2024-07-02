@@ -25,17 +25,6 @@ body {
   border-bottom: 1px solid #c8c8c8 !important;
 }
 
-.dropdown_toggle {
-  color: #000;
-}
-.dropdown_toggle:hover {
-  color: #000;
-}
-
-.flags_img {
-  margin-right: 5px;
-}
-
 input:focus {
   outline: 0;
   box-shadow: none !important;
@@ -49,13 +38,13 @@ input::placeholder {
   color: #bdbdbd !important;
 }
 
-.password_form_control .cross_eye_icn_box {
+.password_form_control {
   position: relative;
 }
 
 .toggle-password {
   position: absolute;
-  top: 48.1%;
+  top: 41.6%;
   right: 4%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -65,21 +54,6 @@ input::placeholder {
           user-select: none;
 }
 .toggle-password i {
-  color: #bdbdbd;
-}
-
-.cross_eye_icn {
-  position: absolute;
-  top: 57.1%;
-  right: 4%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  font-size: 18px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-.cross_eye_icn i {
   color: #bdbdbd;
 }
 
@@ -97,8 +71,8 @@ input::placeholder {
 
 .signin_page_section--content--box {
   position: absolute;
-  top: 72px;
-  left: -127px;
+  top: 70px;
+  left: -77px;
 }
 
 .signin_page_section--content--box--heading {
@@ -107,6 +81,11 @@ input::placeholder {
 
 .signin_page_section--content--box--title {
   font-size: 2rem;
+}
+
+.logo_img {
+  width: 500px;
+  height: 167px;
 }
 
 .overlay {
@@ -154,10 +133,7 @@ input::placeholder {
 }
 
 .right-side {
-  height: 600px;
-  overflow: scroll;
-  overflow-x: hidden;
-  padding: 300px 0 0 0;
+  padding: 30px 0;
   display: flex;
   justify-content: center;
   align-items: center;

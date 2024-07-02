@@ -29,17 +29,16 @@
     border-bottom: 1px solid $form_border !important;
 }
 
-.dropdown_toggle {
-    color: #000;
-
-    &:hover {
-        color: #000;
-    }
+.dropdown_toggle{
+  color: #000;
+  &:hover{
+      color: #000;
+  }
 
 }
 
-.flags_img {
-    margin-right: 5px;
+.flags_img{
+  margin-right: 5px;
 }
 
 input:focus {
@@ -67,7 +66,7 @@ input::placeholder {
     i {
         color: $form_placeholder;
     }
-}
+  }
 
 .cross_eye_icn {
     position: absolute;
@@ -100,8 +99,8 @@ input::placeholder {
 
 .signin_page_section--content--box {
     position: absolute;
-    top: 72px;
-    left: -127px;
+    top: 0;
+    left: 35px;
 }
 
 .signin_page_section--content--box--heading {
@@ -110,6 +109,11 @@ input::placeholder {
 
 .signin_page_section--content--box--title {
     font-size: 2rem;
+}
+
+.logo_img {
+    width: 100px;
+    height: 150px
 }
 
 .overlay {
@@ -173,8 +177,8 @@ input::placeholder {
     width: 80%;
     max-width: 500px;
 
-    p {
-        font-size: 14px;
+    p{
+      font-size: 14px;
         color: $form_label;
     }
 }
